@@ -58,6 +58,8 @@ paths:
           description: If Claim with given id is found
         '404':
           description: If no claim for give id is available
+        '500':
+          description: If no claim for give id is available
       operationId: getClaim
       summary: Get Claim by Id
     parameters:
